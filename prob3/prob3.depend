@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1339536289 source:d:\git\euler\prob3\main.cpp
+	<iostream>
+	<math.h>
+
