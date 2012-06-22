@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1339879957 source:c:\users\mzijlstra\code\prob7\main.cpp
+	<iostream>
+	<list>
+	<math.h>
+

@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double primes[10001];
+
+
+
+
+    cout << "Hello world!" << endl;
+    return 0;
+}
