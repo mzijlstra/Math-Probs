@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1339911667 source:c:\users\mzijlstra\code\prob10\main.cpp
+	<iostream>
+	<math.h>
+	<iostream>
+	<list>
+	<iostream>
+	<list>
+	<vector>
+	<math.h>
+	<stdio.h>
+
