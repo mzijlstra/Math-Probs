@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1341151524 source:c:\users\mzijlstra\code\euler-project\prob16\main.cpp
+	<iostream>
+	<stdio.h>
+
