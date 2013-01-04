@@ -1,26 +1,11 @@
 import math
 
-primes = [2, 3] # list of primes found so far
-maxPrime = 3
-
 def isPrime(num):
-	global maxPrime
-
-	# check cache of known primes
-	#if num in primes:
-	#	return True
-	#elif num < maxPrime:
-	#	print('definitely not prime', num, maxPrime)
-	#	return False
-	
 	prime = True
 	for i in range(2, int(math.sqrt(abs(num))) + 1):
 		if num % i == 0:
 			prime = False
 			break
-
-	primes.append(num)
-	maxPrime = num
 	return prime
 			
 
