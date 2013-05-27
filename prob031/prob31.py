@@ -10,7 +10,9 @@ def findPerms(rem, idx):
 		return 1
 	if rem < 0 or idx < 0:
 		return 0
-	if rem > 0:
-		return findPerms(rem - coins[idx], idx) + findPerms(rem, idx -1)
+	if idx == 0:
+		return findPerms(rem - coins[idx], idx)
+
+	return findPerms(rem - coins[idx], idx) + findPerms(rem, idx -1)
 
 print findPerms(200, 7)
